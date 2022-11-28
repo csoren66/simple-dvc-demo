@@ -1,27 +1,38 @@
-create env
+create env 
 
-'''bash
-conda create -n wineq python=3.9 -y
-'''
+```bash
+conda create -n wineq python=3.7 -y
+```
 
 activate env
-'''bash
+```bash
 conda activate wineq
-'''
+```
 
-create a req file
- install the req
- '''bash
- pip install -r requirements.txt
- '''
- download the data from 
+created a req file
 
- https://www.kaggle.com/datasets/rajyellow46/wine-quality
+install the req
+```bash
+pip install -r requirements.txt
+```
+download the data from 
 
- git init
+https://www.kaggle.com/datasets/rajyellow46/wine-quality
 
- dvc init
+```bash
+git init
+```
+```bash
+dvc init 
+```
+```bash
+dvc add data_given/winequality.csv
+```
+```bash
+git add .
+```
+```bash
+git commit -m "first commit"
 
- dvc add data_given/winequality.csv
-
- 
+onliner updates for readme
+git add . && git comit -m "update Readme.md"
