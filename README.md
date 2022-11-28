@@ -35,4 +35,8 @@ git add .
 git commit -m "first commit"
 
 onliner updates for readme
-git add . && git comit -m "update Readme.md"
+git add . && git commit -m "update Readme.md"
+
+git remote add origin https://github.com/cs... 
+git branch -M main
+git push origin main
